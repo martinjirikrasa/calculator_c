@@ -27,7 +27,7 @@ void	ft_putnbr(int nb)
 	}
 	else
 		num = nb;
-	if (num > 10)
+	if (num >= 10)
 		ft_putnbr(num / 10);
 	ft_putchar(num % 10 + 48);
 }
